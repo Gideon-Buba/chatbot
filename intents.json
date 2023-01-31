@@ -1,0 +1,45 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
+  "responses": ["Hello", "Hey", "What can I do for you?"]
+  },
+  {"tag": "goodbye",
+  "patterns": ["See you later", "Goodbye", "Have a good day", "Bye", "Ciao"],
+  "responses": ["Sad to see you go", "Goodbye"]
+  },
+  {"tag": "hours",
+  "patterns": ["What are your hours of operation",
+    "when are you guys open", "When is the school open",
+    "What are the office hours for the school",
+    "when does the school close"],
+  "responses": ["The school is open from 8:00 am to 4:00 pm Monday through Friday",
+    "Classes start at 8:00 am and end at 4:00 pm on weekdays",
+    "The school offices are open from 8:00 am to 4:00 pm Monday through Friday."]
+  },
+  {"tag": "name",
+  "patterns": ["what is your name", "what should I call you",
+    "what's your name", "who are you?",
+    "can you tell me your name", "introduce yourself"],
+  "responses": ["You can call me MyBHU Assistant",
+    "I'm MyBHU Assistant", "I am MyBHU Assistant"]
+  },
+  {"tag": "admission",
+  "patterns": ["How do I enroll in your school",
+    "What is the enrollment process",
+    "What are the admission requirements",
+    "Do I need to provide transcripts or other documents as part of the application process"],
+  "responses": ["To enroll in our school, you will need to fill out an application form and submit it to the admissions office. You may also need to provide transcripts and other documents as part of the application process.",
+    "The admission requirements for our school include a completed application form, transcripts, and possibly other documents such as immunization records or proof of residency. Please contact the admissions office for more information."
+  , "What can I do for you?"]
+  },
+  {"tag": "contact",
+  "patterns": ["How do I contact the school",
+    "What is the phone number for the school?",
+    "What is the mailing address for the school?",
+    "How do I contact a specific teacher or staff member",
+    "How do I report a problem or concern to the school",
+    "Is there a school directory available?"],
+  "responses": ["You can contact the school by phone, email, or mail. Our phone numbers are 07068615119,07065092268,07064483649, and our mailing address is Bingham University,\nKm 26 Abuja - Keffi\nExpress Way Kodope,\nNasarawa State",
+    "To contact a specific teacher or staff member, you can check the school directory on the school website @https://binghamuni.edu.ng/v2/staff or reach out to the main office for assistance"]
+  }
+]}
