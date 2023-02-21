@@ -11,7 +11,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
 
-lemmatizer = WordNetLemmatizer
+lemmatizer = WordNetLemmatizer()
 
 intents = json.loads(open('intents.json').read())
 
@@ -56,7 +56,7 @@ training = np.array(training)
 train_x = list(training[:, 0])
 train_y = list(training[:, 1])
 
-model = sequential()
+model = Sequential()
 model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(64, activation='relu'))
